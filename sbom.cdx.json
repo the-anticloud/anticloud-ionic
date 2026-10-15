@@ -1,0 +1,648 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:60954bff-8e8d-54e5-b18a-2ec3a86f97a7",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:42:07Z",
+    "component": {
+      "type": "application",
+      "name": "IONIC",
+      "version": "35bd2fa9f104",
+      "bom-ref": "pkg:generic/anticloud/IONIC@35bd2fa9f104",
+      "purl": "pkg:generic/anticloud/IONIC@35bd2fa9f104",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "35bd2fa9f1046b3f5fd3cd6b3778b0b5945be99c"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/ionic-team/ionic"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "lerna",
+      "version": "^5.5.2",
+      "purl": "pkg:npm/lerna@^5.5.2",
+      "bom-ref": "npm/lerna@^5.5.2"
+    },
+    {
+      "type": "library",
+      "name": "semver",
+      "version": "^5.5.0",
+      "purl": "pkg:npm/semver@^5.5.0",
+      "bom-ref": "npm/semver@^5.5.0"
+    },
+    {
+      "type": "library",
+      "name": "@stencil/core",
+      "version": "^4.44.2",
+      "purl": "pkg:npm/@stencil/core@^4.44.2",
+      "bom-ref": "npm/@stencil/core@^4.44.2"
+    },
+    {
+      "type": "library",
+      "name": "ionicons",
+      "version": "^8.1.0",
+      "purl": "pkg:npm/ionicons@^8.1.0",
+      "bom-ref": "npm/ionicons@^8.1.0"
+    },
+    {
+      "type": "library",
+      "name": "tslib",
+      "version": "^2.1.0",
+      "purl": "pkg:npm/tslib@^2.1.0",
+      "bom-ref": "npm/tslib@^2.1.0"
+    },
+    {
+      "type": "library",
+      "name": "@axe-core/playwright",
+      "version": "^4.13.0",
+      "purl": "pkg:npm/@axe-core/playwright@^4.13.0",
+      "bom-ref": "npm/@axe-core/playwright@^4.13.0"
+    },
+    {
+      "type": "library",
+      "name": "@capacitor/core",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/@capacitor/core@^8.0.0",
+      "bom-ref": "npm/@capacitor/core@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@capacitor/haptics",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/@capacitor/haptics@^8.0.0",
+      "bom-ref": "npm/@capacitor/haptics@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@capacitor/keyboard",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/@capacitor/keyboard@^8.0.0",
+      "bom-ref": "npm/@capacitor/keyboard@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@capacitor/status-bar",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/@capacitor/status-bar@^8.0.0",
+      "bom-ref": "npm/@capacitor/status-bar@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/eslintrc",
+      "version": "^3.3.1",
+      "purl": "pkg:npm/@eslint/eslintrc@^3.3.1",
+      "bom-ref": "npm/@eslint/eslintrc@^3.3.1"
+    },
+    {
+      "type": "library",
+      "name": "@eslint/js",
+      "version": "^9.0.0",
+      "purl": "pkg:npm/@eslint/js@^9.0.0",
+      "bom-ref": "npm/@eslint/js@^9.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@ionic/eslint-config",
+      "version": "^0.3.0",
+      "purl": "pkg:npm/@ionic/eslint-config@^0.3.0",
+      "bom-ref": "npm/@ionic/eslint-config@^0.3.0"
+    },
+    {
+      "type": "library",
+      "name": "@ionic/prettier-config",
+      "version": "^2.0.0",
+      "purl": "pkg:npm/@ionic/prettier-config@^2.0.0",
+      "bom-ref": "npm/@ionic/prettier-config@^2.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@playwright/test",
+      "version": "^1.63.0",
+      "purl": "pkg:npm/@playwright/test@^1.63.0",
+      "bom-ref": "npm/@playwright/test@^1.63.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-node-resolve",
+      "version": "^8.4.0",
+      "purl": "pkg:npm/@rollup/plugin-node-resolve@^8.4.0",
+      "bom-ref": "npm/@rollup/plugin-node-resolve@^8.4.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-virtual",
+      "version": "^2.0.3",
+      "purl": "pkg:npm/@rollup/plugin-virtual@^2.0.3",
+      "bom-ref": "npm/@rollup/plugin-virtual@^2.0.3"
+    },
+    {
+      "type": "library",
+      "name": "@stencil/angular-output-target",
+      "version": "^1.4.1",
+      "purl": "pkg:npm/@stencil/angular-output-target@^1.4.1",
+      "bom-ref": "npm/@stencil/angular-output-target@^1.4.1"
+    },
+    {
+      "type": "library",
+      "name": "@stencil/react-output-target",
+      "version": "^1.6.2",
+      "purl": "pkg:npm/@stencil/react-output-target@^1.6.2",
+      "bom-ref": "npm/@stencil/react-output-target@^1.6.2"
+    },
+    {
+      "type": "library",
+      "name": "@stencil/sass",
+      "version": "^3.0.9",
+      "purl": "pkg:npm/@stencil/sass@^3.0.9",
+      "bom-ref": "npm/@stencil/sass@^3.0.9"
+    },
+    {
+      "type": "library",
+      "name": "@stencil/vue-output-target",
+      "version": "0.14.2",
+      "purl": "pkg:npm/@stencil/vue-output-target@0.14.2",
+      "bom-ref": "npm/@stencil/vue-output-target@0.14.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^29.5.6",
+      "purl": "pkg:npm/@types/jest@^29.5.6",
+      "bom-ref": "npm/@types/jest@^29.5.6"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^24.13.3",
+      "purl": "pkg:npm/@types/node@^24.13.3",
+      "bom-ref": "npm/@types/node@^24.13.3"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/eslint-plugin",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/@typescript-eslint/eslint-plugin@^8.0.0",
+      "bom-ref": "npm/@typescript-eslint/eslint-plugin@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@typescript-eslint/parser",
+      "version": "^8.0.0",
+      "purl": "pkg:npm/@typescript-eslint/parser@^8.0.0",
+      "bom-ref": "npm/@typescript-eslint/parser@^8.0.0"
+    },
+    {
+      "type": "library",
+      "name": "chalk",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/chalk@^6.0.0",
+      "bom-ref": "npm/chalk@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "clean-css-cli",
+      "version": "^5.6.1",
+      "purl": "pkg:npm/clean-css-cli@^5.6.1",
+      "bom-ref": "npm/clean-css-cli@^5.6.1"
+    },
+    {
+      "type": "library",
+      "name": "domino",
+      "version": "^2.1.6",
+      "purl": "pkg:npm/domino@^2.1.6",
+      "bom-ref": "npm/domino@^2.1.6"
+    },
+    {
+      "type": "library",
+      "name": "eslint",
+      "version": "^9.0.0",
+      "purl": "pkg:npm/eslint@^9.0.0",
+      "bom-ref": "npm/eslint@^9.0.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-config-prettier",
+      "version": "^10.0.0",
+      "purl": "pkg:npm/eslint-config-prettier@^10.0.0",
+      "bom-ref": "npm/eslint-config-prettier@^10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-custom-rules",
+      "version": "file:custom-rules",
+      "purl": "pkg:npm/eslint-plugin-custom-rules@file:custom-rules",
+      "bom-ref": "npm/eslint-plugin-custom-rules@file:custom-rules"
+    },
+    {
+      "type": "library",
+      "name": "eslint-plugin-import",
+      "version": "^2.31.0",
+      "purl": "pkg:npm/eslint-plugin-import@^2.31.0",
+      "bom-ref": "npm/eslint-plugin-import@^2.31.0"
+    },
+    {
+      "type": "library",
+      "name": "execa",
+      "version": "^8.0.1",
+      "purl": "pkg:npm/execa@^8.0.1",
+      "bom-ref": "npm/execa@^8.0.1"
+    },
+    {
+      "type": "library",
+      "name": "fs-extra",
+      "version": "^9.0.1",
+      "purl": "pkg:npm/fs-extra@^9.0.1",
+      "bom-ref": "npm/fs-extra@^9.0.1"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/jest@^29.7.0",
+      "bom-ref": "npm/jest@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "jest-cli",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/jest-cli@^29.7.0",
+      "bom-ref": "npm/jest-cli@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "playwright-core",
+      "version": "^1.63.0",
+      "purl": "pkg:npm/playwright-core@^1.63.0",
+      "bom-ref": "npm/playwright-core@^1.63.0"
+    },
+    {
+      "type": "library",
+      "name": "prettier",
+      "version": "^2.6.1",
+      "purl": "pkg:npm/prettier@^2.6.1",
+      "bom-ref": "npm/prettier@^2.6.1"
+    },
+    {
+      "type": "library",
+      "name": "rollup",
+      "version": "^2.26.4",
+      "purl": "pkg:npm/rollup@^2.26.4",
+      "bom-ref": "npm/rollup@^2.26.4"
+    },
+    {
+      "type": "library",
+      "name": "sass",
+      "version": "^1.33.0",
+      "purl": "pkg:npm/sass@^1.33.0",
+      "bom-ref": "npm/sass@^1.33.0"
+    },
+    {
+      "type": "library",
+      "name": "serve",
+      "version": "^14.0.1",
+      "purl": "pkg:npm/serve@^14.0.1",
+      "bom-ref": "npm/serve@^14.0.1"
+    },
+    {
+      "type": "library",
+      "name": "stylelint",
+      "version": "^13.13.1",
+      "purl": "pkg:npm/stylelint@^13.13.1",
+      "bom-ref": "npm/stylelint@^13.13.1"
+    },
+    {
+      "type": "library",
+      "name": "stylelint-order",
+      "version": "^4.1.0",
+      "purl": "pkg:npm/stylelint-order@^4.1.0",
+      "bom-ref": "npm/stylelint-order@^4.1.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^6.0.0",
+      "purl": "pkg:npm/typescript@^6.0.0",
+      "bom-ref": "npm/typescript@^6.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@ionic/core",
+      "version": "^9.0.6",
+      "purl": "pkg:npm/@ionic/core@^9.0.6",
+      "bom-ref": "npm/@ionic/core@^9.0.6"
+    },
+    {
+      "type": "library",
+      "name": "jsonc-parser",
+      "version": "^3.0.0",
+      "purl": "pkg:npm/jsonc-parser@^3.0.0",
+      "bom-ref": "npm/jsonc-parser@^3.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular-devkit/core",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular-devkit/core@^22.0.0",
+      "bom-ref": "npm/@angular-devkit/core@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular-devkit/schematics",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular-devkit/schematics@^22.0.0",
+      "bom-ref": "npm/@angular-devkit/schematics@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/cli",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/cli@^22.0.0",
+      "bom-ref": "npm/@angular/cli@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/common",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/common@^22.0.0",
+      "bom-ref": "npm/@angular/common@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/compiler",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/compiler@^22.0.0",
+      "bom-ref": "npm/@angular/compiler@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/compiler-cli",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/compiler-cli@^22.0.0",
+      "bom-ref": "npm/@angular/compiler-cli@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/core",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/core@^22.0.0",
+      "bom-ref": "npm/@angular/core@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/forms",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/forms@^22.0.0",
+      "bom-ref": "npm/@angular/forms@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/platform-browser",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/platform-browser@^22.0.0",
+      "bom-ref": "npm/@angular/platform-browser@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/platform-browser-dynamic",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/platform-browser-dynamic@^22.0.0",
+      "bom-ref": "npm/@angular/platform-browser-dynamic@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/router",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/router@^22.0.0",
+      "bom-ref": "npm/@angular/router@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@schematics/angular",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@schematics/angular@^22.0.0",
+      "bom-ref": "npm/@schematics/angular@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "angular-eslint",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/angular-eslint@^22.0.0",
+      "bom-ref": "npm/angular-eslint@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "rxjs",
+      "version": "~7.5.0",
+      "purl": "pkg:npm/rxjs@~7.5.0",
+      "bom-ref": "npm/rxjs@~7.5.0"
+    },
+    {
+      "type": "library",
+      "name": "source-map",
+      "version": "^0.7.6",
+      "purl": "pkg:npm/source-map@^0.7.6",
+      "bom-ref": "npm/source-map@^0.7.6"
+    },
+    {
+      "type": "library",
+      "name": "typescript-eslint-language-service",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/typescript-eslint-language-service@^5.0.0",
+      "bom-ref": "npm/typescript-eslint-language-service@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "zone.js",
+      "version": "~0.16.0",
+      "purl": "pkg:npm/zone.js@~0.16.0",
+      "bom-ref": "npm/zone.js@~0.16.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/animations",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/animations@^22.0.0",
+      "bom-ref": "npm/@angular/animations@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@angular/platform-server",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/@angular/platform-server@^22.0.0",
+      "bom-ref": "npm/@angular/platform-server@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "ng-packagr",
+      "version": "^22.0.0",
+      "purl": "pkg:npm/ng-packagr@^22.0.0",
+      "bom-ref": "npm/ng-packagr@^22.0.0"
+    },
+    {
+      "type": "library",
+      "name": "ts-morph",
+      "version": "^28.0.0",
+      "purl": "pkg:npm/ts-morph@^28.0.0",
+      "bom-ref": "npm/ts-morph@^28.0.0"
+    },
+    {
+      "type": "library",
+      "name": "vitest",
+      "version": "^5.0.0",
+      "purl": "pkg:npm/vitest@^5.0.0",
+      "bom-ref": "npm/vitest@^5.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@rollup/plugin-typescript",
+      "version": "^11.1.5",
+      "purl": "pkg:npm/@rollup/plugin-typescript@^11.1.5",
+      "bom-ref": "npm/@rollup/plugin-typescript@^11.1.5"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/dom",
+      "version": "^10.4.1",
+      "purl": "pkg:npm/@testing-library/dom@^10.4.1",
+      "bom-ref": "npm/@testing-library/dom@^10.4.1"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/jest-dom",
+      "version": "^7.0.0",
+      "purl": "pkg:npm/@testing-library/jest-dom@^7.0.0",
+      "bom-ref": "npm/@testing-library/jest-dom@^7.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@testing-library/react",
+      "version": "^16.3.2",
+      "purl": "pkg:npm/@testing-library/react@^16.3.2",
+      "bom-ref": "npm/@testing-library/react@^16.3.2"
+    },
+    {
+      "type": "library",
+      "name": "@types/react",
+      "version": "^18.3.28",
+      "purl": "pkg:npm/@types/react@^18.3.28",
+      "bom-ref": "npm/@types/react@^18.3.28"
+    },
+    {
+      "type": "library",
+      "name": "@types/react-dom",
+      "version": "^18.3.7",
+      "purl": "pkg:npm/@types/react-dom@^18.3.7",
+      "bom-ref": "npm/@types/react-dom@^18.3.7"
+    },
+    {
+      "type": "library",
+      "name": "jest-environment-jsdom",
+      "version": "^29.7.0",
+      "purl": "pkg:npm/jest-environment-jsdom@^29.7.0",
+      "bom-ref": "npm/jest-environment-jsdom@^29.7.0"
+    },
+    {
+      "type": "library",
+      "name": "react",
+      "version": "^18.3.1",
+      "purl": "pkg:npm/react@^18.3.1",
+      "bom-ref": "npm/react@^18.3.1"
+    },
+    {
+      "type": "library",
+      "name": "react-dom",
+      "version": "^18.3.1",
+      "purl": "pkg:npm/react-dom@^18.3.1",
+      "bom-ref": "npm/react-dom@^18.3.1"
+    },
+    {
+      "type": "library",
+      "name": "rimraf",
+      "version": "^3.0.2",
+      "purl": "pkg:npm/rimraf@^3.0.2",
+      "bom-ref": "npm/rimraf@^3.0.2"
+    },
+    {
+      "type": "library",
+      "name": "ts-jest",
+      "version": "^29.4.0",
+      "purl": "pkg:npm/ts-jest@^29.4.0",
+      "bom-ref": "npm/ts-jest@^29.4.0"
+    },
+    {
+      "type": "library",
+      "name": "@ionic/react",
+      "version": "^9.0.6",
+      "purl": "pkg:npm/@ionic/react@^9.0.6",
+      "bom-ref": "npm/@ionic/react@^9.0.6"
+    },
+    {
+      "type": "library",
+      "name": "history",
+      "version": "^5.3.0",
+      "purl": "pkg:npm/history@^5.3.0",
+      "bom-ref": "npm/history@^5.3.0"
+    },
+    {
+      "type": "library",
+      "name": "react-router",
+      "version": "^6.30.0",
+      "purl": "pkg:npm/react-router@^6.30.0",
+      "bom-ref": "npm/react-router@^6.30.0"
+    },
+    {
+      "type": "library",
+      "name": "react-router-dom",
+      "version": "^6.30.0",
+      "purl": "pkg:npm/react-router-dom@^6.30.0",
+      "bom-ref": "npm/react-router-dom@^6.30.0"
+    },
+    {
+      "type": "library",
+      "name": "change-case",
+      "version": "^4.1.1",
+      "purl": "pkg:npm/change-case@^4.1.1",
+      "bom-ref": "npm/change-case@^4.1.1"
+    },
+    {
+      "type": "library",
+      "name": "vue",
+      "version": "^3.5.42",
+      "purl": "pkg:npm/vue@^3.5.42",
+      "bom-ref": "npm/vue@^3.5.42"
+    },
+    {
+      "type": "library",
+      "name": "vue-router",
+      "version": "^5.2.0",
+      "purl": "pkg:npm/vue-router@^5.2.0",
+      "bom-ref": "npm/vue-router@^5.2.0"
+    },
+    {
+      "type": "library",
+      "name": "@ionic/vue",
+      "version": "^9.0.6",
+      "purl": "pkg:npm/@ionic/vue@^9.0.6",
+      "bom-ref": "npm/@ionic/vue@^9.0.6"
+    }
+  ]
+}
